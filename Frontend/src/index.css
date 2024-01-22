@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid var(--tertiary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.TaskForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.TaskForm input,
+.TaskForm button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.TaskForm input {
+  background: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.TaskForm button {
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.TaskFilter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.TaskFilter label {
+  margin-right: 1rem;
+  color: var(--quinary-color);
+}
+
+.TaskFilter select {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.TaskList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.TaskItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border: 2px solid var(--tertiary-color);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.TaskItem h3,
+.TaskItem p {
+  margin: 0;
+}
+
+.TaskItem select,
+.TaskItem button {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.TaskItem select {
+  background: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.TaskItem button {
+  background: var(--quaternary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
